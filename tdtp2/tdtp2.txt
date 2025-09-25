@@ -1,0 +1,6 @@
+- Cas ou le nombre est :
+neg
+egal à 0
+non entier
+entier
+pas un nombre
