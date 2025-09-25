@@ -1,4 +1,4 @@
-package FacteursPremiers;
+package com.dumai.FacteursPremiers;
 
 public class Main {
 
