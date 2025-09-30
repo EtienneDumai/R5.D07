@@ -18,8 +18,19 @@ public class deplacementPersonnageTest {
          monP = new DeplacementPersonnage();
     }
     @Test
+
     public void devrait_retourner_est(){
         expected = "EST";
         assertThat(monP.tourner(1)).isEqualTo(expected);
+    }
+    @Test
+    public void devrait_renvoyer_nord_avec_fois_sup_a_quatre(){
+        expected = "EST";
+        assertThat(monP.tourner(5)).isEqualTo(expected);
+    }
+    @Test
+    public void devrait_renvoyer_nord_avec_beaucoup_de_tour(){
+        expected = "NORD";
+        assertThat(monP.tourner(56)).isEqualTo(expected);
     }
 }
