@@ -23,4 +23,8 @@ public class FizzBuzzTest {
         expected = "Buzz";
         assertThat(f.de(5)).isEqualTo(expected);
     }
+    @Test
+    public void devrait_retourner_fizzbuzz(){
+        expected = "FizzBuzz";
+    }
 }
