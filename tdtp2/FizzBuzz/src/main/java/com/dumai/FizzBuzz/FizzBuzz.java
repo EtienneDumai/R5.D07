@@ -18,6 +18,9 @@ public class FizzBuzz {
             s = "Buzz";
             return s;
         }
+        else{
+            s = String.valueOf(nb);
+        }
         return s;
     }
 }
