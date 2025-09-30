@@ -33,6 +33,14 @@ public class FacteursPremiersTest {
     public void devrait_retourner_liste_avec_2_2(){
         listeExpected.add(2);
         listeExpected.add(2);
-        assertThat(f.generer(2)).isEqualTo(listeExpected);
+        assertThat(f.generer(4)).isEqualTo(listeExpected);
+    }
+    @Test
+    public void devrait_renvoyer_liste_avec_2_2_3_7(){
+        listeExpected.add(2);
+        listeExpected.add(2);
+        listeExpected.add(3);
+        listeExpected.add(7);
+        assertThat(f.generer(84)).isEqualTo(listeExpected);
     }
 }
